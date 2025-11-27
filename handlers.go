@@ -149,15 +149,15 @@ func defaultHandler(w http.ResponseWriter, r *http.Request) {
         </div>
 
         <div class="input-group">
-            <label for="review">What do you think of this presentation</label>
+            <label for="review">What do you think of the VPS new templates</label>
             <select id="review" name="review" required>
-                <option value="Excellent Presentation">Excellent Presentation</option>
+                <option value="Excellent Addition">Excellent Addition</option>
+                <option value="Phenomenal">Phenomenal</option>
                 <option value="Good">Good</option>
-                <option value="meh">Meh</option>
-                <option value="Can be better">Can be better</option>
-                <option value="Not clear enough">Not clear enough</option>
+                <option value="Meh">Meh</option>
+                <option value="Eh.">Eh.</option>
+                <option value="Hmm">Hmm</option>
                 <option value="Wait… what are we talking about again?">Wait… what are we talking about again?</option>
-                <option value="This could have been a mail">This could’ve been an email</option>
             </select>
         </div>
 
